@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-white rounded-lg m-2 p-4 border-2">
+  <div class="sidebar_card">
     <div class="flex justify-between items-center mb-4">
       <NuxtImg src="/images/SunLogo.png" alt="avatar" width="32" height="32"/>
       <h1 class="font-medium text-lg">

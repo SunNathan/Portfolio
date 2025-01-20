@@ -1,6 +1,6 @@
 <template>
-  <div class="bg-white rounded-lg m-2 p-4 border-2">
-    <h2 class="font-medium mb-4">Experiences</h2>
+  <div class="sidebar_card">
+    <h2 class="mb-4">Experiences</h2>
     <SidebarExperienceItem title="Développeur (DevOps)"
                            date-range="Sept. 2023 - Août 2025"
                            image-src="/images/experiences/apcv.png"

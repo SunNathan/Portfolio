@@ -4,9 +4,9 @@
     <div class="flex flex-col">
       <h3>{{ title }}</h3>
       <p class="font-extralight text-xs">{{ dateRange }} •
-        <a :href="linkUrl" class="text-[#8882FF]" target="_blank">{{ linkText }}
+        <NuxtLink :to="linkUrl" class="text-[#8882FF]" target="_blank">{{ linkText }}
           <Icon name="ri:external-link-line"/>
-        </a>
+        </NuxtLink>
       </p>
     </div>
     <span class="bg-[#EEF0F2] ml-4 flex p-1 rounded-full items-center justify-center" @click="showText = !showText">
