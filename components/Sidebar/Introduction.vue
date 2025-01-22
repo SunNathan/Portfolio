@@ -2,7 +2,7 @@
   <UiCardContainer>
     <div class="flex justify-between items-center mb-4">
       <NuxtImg src="/images/SunLogo.png" alt="avatar" width="32" height="32"/>
-      <h1 class="font-medium text-lg">
+      <h1>
         Nathan FOUGERAY
       </h1>
     </div>
