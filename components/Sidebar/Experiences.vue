@@ -1,5 +1,5 @@
 <template>
-  <div class="sidebar_card">
+  <UiCardContainer>
     <h2 class="mb-4">Experiences</h2>
     <SidebarExperienceItem title="Développeur (DevOps)"
                            date-range="Sept. 2023 - Août 2025"
@@ -22,5 +22,5 @@
                            link-text="OpenClassRooms"
                            link-url="https://openclassrooms.com/"
                            description="TODO"/>
-  </div>
+  </UiCardContainer>
 </template>

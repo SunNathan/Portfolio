@@ -1,5 +1,5 @@
 <template>
-  <div class="sidebar_card">
+  <UiCardContainer>
     <div>
       <h2>Profil</h2>
       <ul class="list-disc list-inside">
@@ -27,5 +27,5 @@
         <li>Impression 3D</li>
       </ul>
     </div>
-  </div>
+  </UiCardContainer>
 </template>
