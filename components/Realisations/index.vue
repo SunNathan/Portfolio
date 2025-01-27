@@ -11,7 +11,7 @@
         {{ filter }}
       </UiButton>
     </div>
-    <div class="grid grid-cols-3 gap-4 justify-items-center">
+    <div class="grid 2xl:grid-cols-3 xl:grid-cols-2 gap-4 justify-items-center">
       <RealisationsCard/>
       <RealisationsCard/>
       <RealisationsCard/>
