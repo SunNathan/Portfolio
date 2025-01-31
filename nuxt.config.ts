@@ -4,6 +4,7 @@ export default defineNuxtConfig({
     devtools: {enabled: false},
     css: ['~/assets/css/main.scss'],
     typescript: {typeCheck: true},
+    ssr: true,
     modules: ['@nuxtjs/tailwindcss', '@nuxt/image', '@nuxt/icon', '@nuxt/content'],
     app: {
         head: {
