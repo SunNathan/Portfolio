@@ -15,11 +15,13 @@
       <Icon :name="showText ? 'ri:arrow-up-s-line' : 'ri:arrow-down-s-line'" class="text-[#919293]" size="24"/>
     </span>
   </div>
-  <p v-show="showText" class="text-sm">{{ description }}</p>
+  <span v-show="showText">
+      <slot></slot>
+  </span>
 </template>
 
 <script setup lang="ts">
-import { ref } from 'vue'
+import {ref} from 'vue'
 
 const props = defineProps({
   imageSrc: String,
@@ -28,7 +30,6 @@ const props = defineProps({
   dateRange: String,
   linkUrl: String,
   linkText: String,
-  description: String
 })
 
 const showText = ref(false)

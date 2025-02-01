@@ -8,3 +8,4 @@ linkUrl: https://www.sesam-vitale.fr/
 dateRange: Sept. 2023 - Août 2025
 description: "TODO"
 ---
+Sesam Vitale
