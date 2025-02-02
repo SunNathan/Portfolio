@@ -8,11 +8,3 @@ projectTag: etudes
 # Un magnifique projet qualitatif
 
 Omg c'est trop bien
-
-## un titre
-
-```html
-<html>
-
-</html>
-```

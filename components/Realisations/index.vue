@@ -1,5 +1,5 @@
 <template>
-  <UiCardContainer class="md:w-4/5 max-md:w-full max-sm:p-2 max-sm:m-1">
+  <UiCardContainer class="md:w-7/8 max-md:w-screen max-sm:p-2 max-sm:m-1 max-sm:mt-2">
     <h2>Mes Réalisations</h2>
     <div class="flex space-x-4 my-4 max-sm:flex-col">
       <UiButton
@@ -12,7 +12,7 @@
       </UiButton>
     </div>
     <hr class="my-4">
-    <div class="grid 2xl:grid-cols-3 xl:grid-cols-2 gap-4 justify-items-center">
+    <div class="grid 2xl:grid-cols-3 xl:grid-cols-2 gap-4 justify-items-center md:h-5/6 max-md:h-3/5 max-md:p-2 overflow-y-auto">
       <RealisationsCard :realisation-title="realisation.title" :slug="realisation.slug" :imageSrc="realisation.imageSrc"
                         v-for="realisation in realisations"/>
     </div>
