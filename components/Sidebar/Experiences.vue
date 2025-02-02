@@ -8,7 +8,7 @@
                                  :imageSrc="experience.imageSrc"
                                  :linkText="experience.linkText"
                                  :linkUrl="experience.linkUrl"
-                                 >
+          >
             <ContentRenderer :value="experience"/>
     </SidebarExperienceItem>
     </span>
@@ -17,9 +17,7 @@
 </template>
 
 <script setup lang="ts">
-const route = useRoute()
-
-const {data: experiences} = await useAsyncData(route.path, () => {
+const {data: experiences} = await useAsyncData('experiences', () => {
   return queryCollection('experiences').order('order', 'ASC').all()
 })
 </script>

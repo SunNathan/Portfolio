@@ -1,7 +1,17 @@
-import { defineContentConfig, defineCollection, z } from '@nuxt/content'
+import {defineContentConfig, defineCollection, z} from '@nuxt/content'
 
 export default defineContentConfig({
     collections: {
+        realisations: defineCollection({
+            type: 'page',
+            source: 'realisations/*.md',
+            schema: z.object({
+                title: z.string(),
+                slug: z.string(),
+                imageSrc: z.string(),
+                projectTag: z.string(),
+            })
+        }),
         experiences: defineCollection({
             type: 'page',
             source: 'experiences/*.md',
@@ -16,5 +26,6 @@ export default defineContentConfig({
                 description: z.string(),
             })
         })
+
     }
 })
