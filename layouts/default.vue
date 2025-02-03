@@ -1,22 +1,25 @@
 <template>
-  <div class="flex bg-[#EEF0F2] h-screen w-screen overflow-x-hidden max-md:relative">
-    <div :class="{'max-md:w-0': !isSidebarVisible, 'w-[80vw]': isSidebarVisible}"
-         class="transition-all duration-500 ease-in-out max-md:fixed md:top-4 max-md:top-0 max-md:left-0 h-full z-50 bg-white md:w-2/5">
+  <!--  <div class="flex bg-[#EEF0F2] h-screen"> &lt;!&ndash; overflow-x-hidden&ndash;&gt;-->
+  <!--    <div class="overflow-y-auto lg:w-1/3 w-0 shrink-0 transition-all duration-700 ease-in-out max-w-96"-->
+  <!--         :class="{'max-lg:w-full':isSidebarVisible}"-->
+  <!--    >-->
+  <!--      <Sidebar/>-->
+  <!--    </div>-->
+  <!--    <div class="shrink grow max-lg:w-full max-lg:shrink-0">-->
+  <!--      <slot/>-->
+  <!--    </div>-->
+  <!--    <UiButton @click="toggleSidebar" class="fixed bottom-4 right-4 text-white lg:hidden z-99" :selected="true">-->
+  <!--      Toggle Sidebar {{isSidebarVisible}}-->
+  <!--    </UiButton>-->
+  <!--  </div>-->
+  <div class="flex h-screen bg-[#EEF0F2]">
+    <div class="md:w-3/5 md:min-w-md 2xl:max-w-xl w-0  transition-all overflow-x-hidden">
       <Sidebar/>
     </div>
-
-    <div :class="{'opacity-40': isSidebarVisible, 'opacity-100': !isSidebarVisible}"
-         class="transition-opacity duration-500 ease-in-out w-full h-full">
+    <div class="m-4 w-full h-auto bg-white p-4 overflow-hidden">
       <slot/>
     </div>
-
-  </div>
-  <div
-      class="z-60 md:hidden p-4 absolute bottom-0 w-screen bg-gradient-to-b to-[rgba(128,128,128,0.6)] from-[rgba(128,128,128,0.0)] flex justify-center">
-    <UiButton @click="toggleSidebar" class="px-4 py-2" :selected="true">
-      <span v-if="!isSidebarVisible">Afficher mon profil</span>
-      <span v-else>Cacher mon profil</span>
-    </UiButton>
+    <!--      <div class="bg-green-400 size-full"></div>-->
   </div>
 </template>
 
@@ -25,8 +28,8 @@
 import {ref} from 'vue'
 
 const isSidebarVisible = ref(false)
-
 const toggleSidebar = () => {
   isSidebarVisible.value = !isSidebarVisible.value
 }
+
 </script>
