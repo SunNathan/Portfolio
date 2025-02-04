@@ -1,12 +1,12 @@
 <template>
-  <UiCardContainer class="md:w-4/5 max-md:w-full" v-if="realisation">
+  <div v-if="realisation">
     <NuxtLink to="/">
       <UiButton :selected="true">Retour</UiButton>
     </NuxtLink>
     <h1 class="my-2">{{realisation.title}}</h1>
     <hr>
     <ContentRenderer :value="realisation" class="my-2"/>
-  </UiCardContainer>
+  </div>
 </template>
 
 <script setup lang="ts">
