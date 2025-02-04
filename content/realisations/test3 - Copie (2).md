@@ -1,6 +1,6 @@
 ---
 title: Test
-slug: test
+slug: test3
 imageSrc: /images/realisations/portfolio.png
 projectTag: etudes
 ---
@@ -8,11 +8,3 @@ projectTag: etudes
 # Un magnifique projet qualitatif
 
 Omg c'est trop bien
-
-## un titre
-
-```html
-<html>
-
-</html>
-```

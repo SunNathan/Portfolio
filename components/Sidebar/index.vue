@@ -1,7 +1,7 @@
 <template>
-  <div class="w-1/5 h-screen min-w-80 overflow-y-auto max-sm:pb-32">
-    <SidebarIntroduction/>
-    <SidebarExperiences/>
-    <SidebarAbout/>
+  <div>
+    <SidebarIntroduction class="m-2 mt-4"/>
+    <SidebarExperiences class="m-2"/>
+    <SidebarAbout  class="m-2"/>
   </div>
 </template>

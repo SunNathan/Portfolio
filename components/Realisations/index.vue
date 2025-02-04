@@ -1,23 +1,21 @@
 <template>
-  <UiCardContainer class="md:w-4/5 max-md:w-full max-sm:p-2 max-sm:m-1">
-    <h2>Mes Réalisations</h2>
-    <div class="flex space-x-4 my-4 max-sm:flex-col">
-      <UiButton
-          v-for="filter in filters"
-          :key="filter"
-          :selected="selectedFilter === filter"
-          @click="selectFilter(filter)"
-      >
-        {{ filter }}
-      </UiButton>
-    </div>
-    <hr class="my-4">
-    <div class="grid 2xl:grid-cols-3 xl:grid-cols-2 gap-4 justify-items-center">
-      <RealisationsCard :realisation-title="realisation.title" :slug="realisation.slug" :imageSrc="realisation.imageSrc"
-                        v-for="realisation in realisations"/>
-    </div>
-
-  </UiCardContainer>
+  <h2>Mes Réalisations</h2>
+  <div class="flex space-x-4 my-4 max-lg:flex-col">
+    <UiButton
+        v-for="filter in filters"
+        :key="filter"
+        :selected="selectedFilter === filter"
+        @click="selectFilter(filter)"
+    >
+      {{ filter }}
+    </UiButton>
+  </div>
+  <hr class="my-4">
+  <div
+      class="flex flex-wrap gap-6 justify-center justify-items-center overflow-y-auto h-5/6 pb-8">
+    <RealisationsCard :realisation-title="realisation.title" :slug="realisation.slug" :imageSrc="realisation.imageSrc"
+                      v-for="realisation in realisations"/>
+  </div>
 </template>
 
 <script setup lang="ts">

@@ -1,5 +1,5 @@
 <template>
-  <UiCardContainer>
+  <UiCardContainer class="max-sm:mt-2">
     <div class="flex justify-between items-center mb-4">
       <NuxtImg src="/images/SunLogo.png" alt="avatar" width="32" height="32"/>
       <h1>
