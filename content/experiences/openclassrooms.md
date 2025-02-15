@@ -24,6 +24,8 @@ notamment sur YouTube.
 - [Perfectionnez-vous sur Angular](https://openclassrooms.com/fr/courses/7471281-perfectionnez-vous-sur-angular)
 - [Débutez avec React](https://openclassrooms.com/fr/courses/7008001-debutez-avec-react)
 
+<br>
+
 ### Administration système
 
 - [Montez un serveur de fichiers sous Linux](https://openclassrooms.com/fr/courses/2356316-montez-un-serveur-de-fichiers-sous-linux)
@@ -31,11 +33,15 @@ notamment sur YouTube.
 - [Gérez votre serveur Linux et ses services](https://openclassrooms.com/fr/courses/1733551-gerez-votre-serveur-linux-et-ses-services)
 - [Prenez en main Windows Server](https://openclassrooms.com/fr/courses/2356306-prenez-en-main-windows-server)
 
+<br>
+
 ### Développement logiciel
 
 - [Apprenez à programmer en C](https://openclassrooms.com/fr/courses/1894236-apprenez-a-programmer-en-c)
 - [Programmez en orienté objet avec C++](https://openclassrooms.com/fr/courses/7137751-programmez-en-oriente-objet-avec-c)
 - [Apprenez à programmer en Java](https://openclassrooms.com/fr/courses/6173501-apprenez-a-programmer-en-java)
+
+<br>
 
 ### DevOps
 

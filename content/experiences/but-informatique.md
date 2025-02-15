@@ -10,20 +10,27 @@ dateRange: Sept. 2022 - Août 2025
 
 ## Compétences acquises :
 
+
 #### Développement Web
 
 - Symfony (PHP)
 - React (JavaScript / TypeScript)
 - Express (Node.js)
 
+<br>
+
 #### Développement Mobile
 
 - Android (Java)
+
+<br>
 
 #### Bases de données
 
 - MySQL - SQL Server
 - MongoDB - REDIS - Neo4j
+
+<br>
 
 #### Développement logiciel
 
@@ -31,10 +38,14 @@ dateRange: Sept. 2022 - Août 2025
 - Java (Junit)
 - Python (initiation au Machine Learning avec Sckit-learn et Tensorflow)
 
+<br>
+
 #### Autres
 
 - Gestion de projets (Agile)
 - Droit / Communication
+
+<br>
 
 ## Points clés de le formartion :
 
