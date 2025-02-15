@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+h1 {
+    @apply font-medium text-lg
+}
+h2 {
+    @apply font-medium text-base
+}
+h3{
+    @apply font-medium text-sm
+}
+h4 {
+    @apply font-medium text-xs
+}
+ul {
+    @apply list-disc list-inside
+}
+li {
+    @apply mb-2
+}
+
+a {
+    @apply text-[#8882FF]
+}
