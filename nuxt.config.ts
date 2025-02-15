@@ -13,5 +13,11 @@ export default defineNuxtConfig({
                 {rel: 'icon', type: 'image/x-icon', href: '/images/SunLogo.png'}
             ]
         }
+    },
+    content:{
+        renderer: {
+            anchorLinks: false,
+        }
     }
+
 })

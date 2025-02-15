@@ -6,9 +6,10 @@
         Nathan FOUGERAY
       </h1>
     </div>
-    <p>Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le
-      Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un imprimeur anonyme assembla
-      ensemble des morceaux de texte pour réaliser un livre spécimen de polices de</p>
+    <p>Passionné par l'informatique depuis le collège,
+      j'aime découvrir de nouveaux langages et approfondir mes compétences pour résoudre des problèmes complexes.
+      Avec un intérêt marqué pour l'administration de serveurs et la création de chaînes CI/CD,
+      je suis constamment en quête de nouveaux défis à relever grâce à mes connaissances.</p>
   </UiCardContainer>
 </template>
 <script setup lang="ts">

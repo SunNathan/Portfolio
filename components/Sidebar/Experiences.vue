@@ -9,7 +9,9 @@
                                  :linkText="experience.linkText"
                                  :linkUrl="experience.linkUrl"
           >
-            <ContentRenderer :value="experience"/>
+
+              <ContentRenderer :value="experience"/>
+
     </SidebarExperienceItem>
     </span>
 
