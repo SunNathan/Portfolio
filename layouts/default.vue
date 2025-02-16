@@ -5,7 +5,7 @@
          'max-md:w-0 max-md:hidden':!isSidebarVisible}">
       <Sidebar/>
     </div>
-    <div class="m-4 w-full h-auto bg-white p-4 overflow-hidden" :class="{'max-md:hidden': isSidebarVisible}">
+    <div class="m-4 w-full h-auto bg-white p-4 overflow-hidden rounded-lg shadow-md" :class="{'max-md:hidden': isSidebarVisible}">
       <slot/>
     </div>
 
