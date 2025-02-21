@@ -4,6 +4,8 @@ slug: school_sequenciels_javafx
 imageSrc: /images/realisations/school_sequenciels_javafx/0.png
 projectTag: etudes
 ---
+[Voir le code sur GitHub](https://github.com/Sunnathan-School/TP_Sequenciels_JavaFX)
+
 ## Technologies utilisées
 - Java
 - JavaFX
