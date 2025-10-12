@@ -1,6 +1,6 @@
 <template>
   <div v-if="realisation">
-    <NuxtLink to="/">
+    <NuxtLink to="/public">
       <UiButton :selected="true">Retour</UiButton>
     </NuxtLink>
     <h1 class="my-2">{{realisation.title}}</h1>
