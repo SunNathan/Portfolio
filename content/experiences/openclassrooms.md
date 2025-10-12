@@ -1,5 +1,5 @@
 ---
-order: 3
+order: 6
 jobTitle: Formations diverses
 imageSrc: /images/experiences/logo_openclassrooms.jpg
 imageAlt: Logo OpenClassrooms
