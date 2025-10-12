@@ -3,7 +3,7 @@
     <div>
       <h2>Profil</h2>
       <ul class="list-disc list-inside">
-        <li>Autonomie</li>
+        <li>Autonome</li>
         <li>Motivé</li>
         <li>À l'écoute et attentif aux besoins des utilisateurs</li>
         <li>Rigoureux</li>
