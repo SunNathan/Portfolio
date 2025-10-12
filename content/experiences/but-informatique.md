@@ -1,5 +1,5 @@
 ---
-order: 2
+order: 4
 jobTitle: BUT Informatique
 imageSrc: /images/experiences/lemans-universite.png
 imageAlt: Logo Le Mans Université
