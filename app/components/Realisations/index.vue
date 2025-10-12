@@ -28,12 +28,9 @@ const realisations = ref()
 const fetchRealisations = async () => {
   if (selectedFilter.value === 'Voir Tout') {
     realisations.value = await queryCollection('realisations').all()
-    console.log("Voir tout")
   } else {
     const filterTag = selectedFilter.value.toLowerCase()
     realisations.value = await queryCollection('realisations').where('projectTag', '=', filterTag).all()
-    console.log(filterTag)
-    console.log(realisations)
   }
 }
 watch(selectedFilter, fetchRealisations)
