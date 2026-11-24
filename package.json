@@ -13,7 +13,7 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
-    "@nuxt/content": "^3.16.2",
+    "@nuxt/content": "^3.17.0",
     "@nuxt/icon": "^2.6.2",
     "@nuxt/image": "^2.2.1",
     "@nuxtjs/tailwindcss": "^6.14.0",
